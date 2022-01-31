@@ -1,57 +1,57 @@
 
 
 {
-    "":
+    "Council":
     [
         {
             "_Id": "0",
-            "Nome": "",
-            "NickName": "",
+            "Nome": "Tsukumo Sana",
+            "NickName": "Speaker of 'Space'",
             "Unit": "holoCouncil",
-            "Channel": "",
+            "Channel": "https://www.youtube.com/channel/UCsUj0dszADCGbF3gNrQEuSQ",
             "DebutDate": "August 2021",
-            "Image": "",
-            "Description": ""
+            "Image": "/Assets/HoloEN/Council/Sana.jpg",
+            "Description": "After being materialized in the mortal realm, she began researching astrology in earnest for one particular reason. However, she soon stumbled unknowingly upon the Forbidden Truth, and was turned into an apostle for the Ancient Ones."
         },
         {
             "_Id": "1",
-            "Nome": "",
-            "NickName": "",
+            "Nome": "Ceres Fauna",
+            "NickName": "Fauna",
             "Unit": "holoCouncil",
-            "Channel": "",
+            "Channel": "https://www.youtube.com/channel/UCO_aKKYxn4tvrqPjcTzZ6EQ",
             "DebutDate": "August 2021",
-            "Image": "",
-            "Description": ""
+            "Image": "/Assets/HoloEN/Council/Fauna.jpeg",
+            "Description": "It is long said that her whispers, as an avatar of Mother Nature, have healing properties. Whether or not that is true is something only those who have heard them can say.While she is usually affable, warm, and slightly mischievous, any who anger her will bear the full brunt of Nature's fury."
         },
         {
             "_Id": "2",
-            "Nome": "",
-            "NickName": "",
+            "Nome": "Ouro Kronii",
+            "NickName": "Kronii",
             "Unit": "holoCouncil",
-            "Channel": "",
+            "Channel": "https://www.youtube.com/c/OuroKroniiCh",
             "DebutDate": "August 2021",
-            "Image": "",
-            "Description": ""
+            "Image": "/Assets/HoloEN/Council/Kronii.jpeg",
+            "Description": "A member of the Council and the Warden of 'Time', the third concept birthed by the Gods and the one most intrinsically linked with mankind."
         },
         {
             "_Id": "3",
-            "Nome": "",
-            "NickName": "",
+            "Nome": "Nanashi Mumei",
+            "NickName": "Mumei",
             "Unit": "holoCouncil",
-            "Channel": "",
+            "Channel": "https://www.youtube.com/channel/UC3n5uGu18FoCy23ggWWp8tA",
             "DebutDate": "August 2021",
-            "Image": "",
-            "Description": ""
+            "Image": "/Assets/HoloEN/Council/Mumei.jpeg",
+            "Description": "As a living embodiment of the sum of mankind's efforts—the mark that humans have left on the world—she is far removed from her fellow members, as well as other lifeforms. Due to not being created by the Gods, she was free to choose her own appearance, and decided to make herself owl-like, after the bird that symbolizes wisdom."
         },
         {
             "_Id": "4",
-            "Nome": "",
-            "NickName": "",
+            "Nome": "Hakos Baelz",
+            "NickName": "Bae",
             "Unit": "holoCouncil",
-            "Channel": "",
+            "Channel": "https://www.youtube.com/channel/UCgmPnx-EEeOrZSg5Tiw7ZRQ",
             "DebutDate": "August 2021",
-            "Image": "",
-            "Description": ""
+            "Image": "/Assets/HoloEN/Council/Bae.jpeg",
+            "Description": "A member of the Council and the very concept of Chaos, birthed by the world, itself.The Gods appointed her Chairperson of the Council, but she mostly takes a hands-off approach as she has yet to accept the decision, much like her fellow members. That said, all of them have no intention of contending; instead to obey."
         }
     ]
     
