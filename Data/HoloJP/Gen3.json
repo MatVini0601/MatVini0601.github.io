@@ -1,0 +1,52 @@
+[
+    {
+        "_Id": 0,
+        "Nome": "Usada Pekora",
+        "NickName": "Peko-chan",
+        "Unit": "Hololive JP Gen 3 -Fantasy-",
+        "Channel": "https://www.youtube.com/channel/UC1DCedRgGHBdm81E1llLhOQ",
+        "DebutDate": "July 2019",
+        "Image": "/Assets/HoloJP/Fantasy/Pekora.jpeg",
+        "Description": "'Hiya-peko! Hiya-peko! Hiya-pekooo! I'm Usada Pekora, peko!'. A lonely rabbit-eared girl who loves carrots. She loves them so much that she always brings a few anywhere she goes."
+    },
+    {
+       "_Id": 1,
+       "Nome": "Uruha Rushia",
+       "NickName": "Ruu-chan",
+       "Unit": "Hololive JP Gen 3 -Fantasy-",
+       "Channel": "https://www.youtube.com/channel/UCl_gCybOJRIgOXw6Qb4qJzQ",
+       "DebutDate": "July 2019",
+       "Image": "/Assets/HoloJP/Fantasy/Rushia.jpeg",
+       "Description": "'Hel-rushi! This is Uruha Rushia!'. A necromancer from the Demonic-Realm Academy who is not good at communicating with people. She does not want to be alone, however, which is why she talks to the spirits and the damned."
+    },
+    {
+        "_Id": 2,
+        "Nome": "Shiranui Flare",
+        "NickName": "Fuu-tan",
+        "Unit": "Hololive JP Gen 3 -Fantasy-",
+        "Channel": "https://www.youtube.com/channel/UCvInZx9h3jC2JzsIzoOebWg",
+        "DebutDate": "August 2019",
+        "Image": "/Assets/HoloJP/Fantasy/Flare.jpeg",
+        "Description": "'Noon-nui! This is hololive 3rd Gen's Shiranui Flare!'. A half-elf born to a human and elf. Usually enjoys life as she pleases. Wants to be a source of comfort so rely on her whenever you're in trouble. She may be passionate and overly sentimental, but praising her will bring her joy, even if also a little embarrassment! 'Hehehe! Let's get along!'. The fairy that follows her everywhere is named 'Kintsuba'."
+    },
+    {
+       "_Id": 3,
+       "Nome": "Shirogane Noel",
+       "NickName": "Danchou",
+       "Unit": "Hololive JP Gen 3 -Fantasy-",
+       "Channel": "https://www.youtube.com/channel/UCdyqAaZDKHXg4Ahi7VENThQ",
+       "DebutDate": "August 2019",
+       "Image": "/Assets/HoloJP/Fantasy/Noel.jpeg",
+       "Description": "'All hustle, all muscle! Shirogane Noel's here!'. As much as this fluffy, meatheaded knight may be easy-going, she has the dangerous habit of attempting to muscle her way through her problems. Hungering for power, she came to train to the VTuber world where all the stronk people are."
+    },
+    {
+        "_Id": 4,
+        "Nome": "Houshou Marine",
+        "NickName": "Senchou ",
+        "Unit": "Hololive JP Gen 3 -Fantasy-",
+        "Channel": "https://www.youtube.com/channel/UCCzUftO8KOVkV4wQG1vkUvg",
+        "DebutDate": "August 2019",
+        "Image": "/Assets/HoloJP/Fantasy/Marine.jpeg",
+        "Description": "'Ahoy! Captain of the Houshou Pirates, Houshou Marine here!' 'Keep 'er steady!'. Loves jewels, treasure, and money. Her dream is to become a pirate and go treasure hunting. In order to get a pirate ship, she is now stacking up money as a VTuber on the great lands, just like how the other land-lovers do (which also means she is currently just a girl cosplayer). She acts like a big sis and sometimes seduces people like a succubus does."
+    }
+]
