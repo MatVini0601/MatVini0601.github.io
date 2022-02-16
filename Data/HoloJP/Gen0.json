@@ -1,0 +1,52 @@
+[
+    {
+        "_Id": 0,
+        "Nome": "Tokino Sora",
+        "NickName": "Sora-chan",
+        "Unit": "Hololive JP Gen 0",
+        "Channel": "https://www.youtube.com/channel/UCp6993wxpyDPHUpavwDFqgg",
+        "DebutDate": "September 2017",
+        "Image": "/Assets/HoloJP/Gen0/Sora.png",
+        "Description": "hololive Production's first virtual idol, debuting on September 7, 2017. She loves horror games and singing, and has always dreamed of performing in Yokohama Arena.She signed a record deal with Victor Entertainment in March 2019. She is active in various forms of media, such as appearing in Watanuki-san Chi no and hosting Sora Ao to!, a radio show.She held her first solo concert, Dream!, on October 6, 2019, taking one step closer to her ultimate goal."
+    },
+    {
+        "_Id": 1,
+        "Nome": "Roboco-san",
+        "NickName": "Roboco-san",
+        "Unit": "Hololive JP Gen 0",
+        "Channel": "https://www.youtube.com/channel/UCDqI2jOz0weumE8s7paEk6g",
+        "DebutDate": "March 2018",
+        "Image": "/Assets/HoloJP/Gen0/Roboco.jpeg",
+        "Description": "A lonely, clunky robot from a faraway wasteland. Now that she's a Virtual YouTuber, she wants to interact withlots of people and live each day to the fullest."
+     },
+     {
+        "_Id": 2,
+        "Nome": "Sakura Miko",
+        "NickName": "Miko-chi",
+        "Unit": "Hololive JP Gen 0",
+        "Channel": "https://www.youtube.com/channel/UC-hM6YJuNYVAmUWxeIr9FeA",
+        "DebutDate": "August 2018",
+        "Image": "/Assets/HoloJP/Gen0/Miko.jpeg",
+        "Description": "Used to work hard in the Virtual Sakura Shrine accomplishing duties as a shrine maiden until, following the gods' orders, she was led to Japan where she found out about Tokino Sora. After developing huge admiration for her, she decided to become a virtual shrine maiden idol and continue to keep working hard for that dream!"
+    },
+    {
+        "_Id": 3,
+        "Nome": "Hoshimachi Suisei",
+        "NickName": "Sui-chan",
+        "Unit": "Hololive JP Gen 0",
+        "Channel": "https://www.youtube.com/channel/UC5CwaMl1eIgY8h02uZw7u8A",
+        "DebutDate": "March 2018",
+        "Image": "/Assets/HoloJP/Gen0/Suisei.jpeg",
+        "Description": "'It's your shooting star, your diamond in the rough, idol VTuber Hoshimachi Suisei!'. A forever 18 VTuber who deeply loves singing and idols. Her dream is to one day hold a live concert in Tokyo Budokan."
+     },
+     {
+        "_Id": 4,
+        "Nome": "AZKi",
+        "NickName": "AZKichi",
+        "Unit": "Hololive JP Gen 0",
+        "Channel": "https://www.youtube.com/channel/UC0TXe_LYZ4scaW2XMyi5_kw",
+        "DebutDate": "November 2018",
+        "Image": "/Assets/HoloJP/Gen0/Azki.jpeg",
+        "Description": "A diva who became reborn into the virtual world in order to fabricate a new world. No matter the time, place, or position, she warps through all the barricades with her dazzling talent."
+    }
+]
