@@ -7,7 +7,7 @@
         "Channel": "https://www.youtube.com/channel/UCdn5BQ06XqgXoAxIhbqw5Rg",
         "DebutDate": "June 2018",
         "Image": "/Assets/HoloJP/Gamers/Fubuki.jpeg",
-        "Description": "'Good foxy day! I'm Shirakami Fubuki!'.<br> White-haired animal-eared otaku fox. She loves talking with people and will be happy if you give her the time of day. She aims to become a top otaku idol while enjoying each and every day." 
+        "Description": "'Good foxy day! I'm Shirakami Fubuki!'.<br/> White-haired animal-eared otaku fox. She loves talking with people and will be happy if you give her the time of day. She aims to become a top otaku idol while enjoying each and every day." 
      },
      {
         "_Id": 1,
@@ -17,7 +17,7 @@
         "Channel": "https://www.youtube.com/channel/UCp-5t9SrOQwXMU7iIjQfARg",
         "DebutDate": "December 2018",
         "Image": "/Assets/HoloJP/Gamers/Mio.jpeg",
-        "Description": "'Hellooowl! It is Ookami Mio!'<br> A black-haired wolf girl who appeared on our radar randomly. She often shows up around shrines. She likes gaming." 
+        "Description": "'Hellooowl! It is Ookami Mio!'<br/> A black-haired wolf girl who appeared on our radar randomly. She often shows up around shrines. She likes gaming." 
      },
      {
          "_Id":"2",
@@ -27,7 +27,7 @@
          "Channel":"https://www.youtube.com/channel/UCvaTdHTWBGv3MKj3KVqJVCw",
          "DebutDate":"April 2019",
          "Image":"/Assets/HoloJP/Gamers/Okayu.jpeg",
-         "Description":"'Om, nom, Okayu!'<br> A cat being raised by an old woman that runs an onigiri store. She streams from the computer in her grandma's room."
+         "Description":"'Om, nom, Okayu!'<br/> A cat being raised by an old woman that runs an onigiri store. She streams from the computer in her grandma's room."
      },
      {
         "_Id":"3",
@@ -37,6 +37,6 @@
         "Channel":"https://www.youtube.com/channel/UChAnqc_AY5_I3Px5dig3X1Q",
         "DebutDate":"April 2019",
         "Image":"/Assets/HoloJP/Gamers/Korone.jpeg",
-        "Description":"Hello! Fingers! Give me your fingers!'<br> A dog from a bakery in the city. She likes to play games during her free time while watchdogging."
+        "Description":"Hello! Fingers! Give me your fingers!'<br/> A dog from a bakery in the city. She likes to play games during her free time while watchdogging."
      }
 ]
