@@ -286,7 +286,7 @@ $(document).on('click', "#pedidosUsuario", function(){
     $("#rowPageContent").empty()
 
     $.ajax({
-        url: `http://127.0.0.1:5500/View/Pedidos/Pedidos.html`,
+        url: `https://deploy-planalto.onrender.com/View/Pedidos/Pedidos.html`,
         type: "GET",
         success: function (data) {
             $("#pageContent #rowPageContent").append(data) 
@@ -505,7 +505,7 @@ $(document).on('click', "#sair", function(){
     localStorage.removeItem("id")
     localStorage.removeItem("nome")
     localStorage.removeItem("tipo")
-    window.location.href = window.location.origin + "/View/login/login.html"
+    window.location.href = window.location.origin + "/View/login/Login.html"
     
 })
 

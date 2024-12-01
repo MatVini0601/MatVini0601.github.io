@@ -161,7 +161,7 @@ $(document).on('click', "#loginUsuario", function(){
                     localStorage.setItem("id", data.id)
                     localStorage.setItem("nome", data.email)
                     localStorage.setItem("tipo", data.tipo)
-                    window.location.href = window.location.origin + "/View/Bebidas/bebidas.html"
+                    window.location.href = window.location.origin + "/View/Bebidas/Bebidas.html"
                 }else{
                     alert("Senha incorreta")
                 }

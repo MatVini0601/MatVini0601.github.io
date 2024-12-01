@@ -5,7 +5,7 @@ $(document).on('click', "#alterarUsuario", function(){
     $("#rowPageContent").empty()
 
     $.ajax({
-        url: `http://127.0.0.1:5500/View/Usuario/AlterarUsuario.html`,
+        url: `https://deploy-planalto.onrender.com/View/Usuario/AlterarUsuario.html`,
         type: "GET",
         success: function (data) {
            $("#pageContent #rowPageContent").append(data)  
