@@ -554,7 +554,8 @@ function retornarDetalhesBeida(idBebida){
         success: function (data) {
 
             const fotoSrc = `data:image/png;base64,${data.foto}`;
-
+            $('#image-data').text(fotoSrc)
+            $('#image-data').val(fotoSrc)
             $('#product-container').append(`
                 
                 <img src='${fotoSrc}' class="product-image"></img>
