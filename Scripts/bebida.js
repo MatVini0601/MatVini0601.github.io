@@ -151,7 +151,7 @@ $(document).on('click', '#irParaCarrinho', function(){
     var carrinho = JSON.parse(localStorage.getItem('carrinho'))
 
     if(carrinho){
-        window.location.href = location.origin+"/View/Usuario/carrinhoUsuario.html"
+        window.location.href = location.origin+"/View/Usuario/CarrinhoUsuario.html"
     }else{
         alert("Adicione um produto ao carrinho")
     }
