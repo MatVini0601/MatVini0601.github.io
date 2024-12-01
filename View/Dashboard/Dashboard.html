@@ -154,7 +154,7 @@
         fetch('https://deploy-planalto.onrender.com/Pedido/status-do-dia')
             .then(response => response.json())
             .then(data => {
-                const labelsStatus = ['Entregue', 'Cancelado', 'Pendente'];
+                const labelsStatus = ['Pago', 'Finalizado', 'Aguardando pagamento'];
                 const valoresStatus = labelsStatus.map(status => data[status] || 0);
 
                 // Cria o gráfico com os dados do backend

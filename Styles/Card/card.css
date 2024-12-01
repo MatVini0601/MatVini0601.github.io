@@ -71,7 +71,7 @@
     box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.32);
 }
 
-.order-card-quantity{
+.order-card-quantity:not{
     text-align: center;
     position: relative;
     bottom: -45px;
