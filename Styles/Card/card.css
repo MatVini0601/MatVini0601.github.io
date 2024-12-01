@@ -1,0 +1,78 @@
+.card{
+    border: 1px solid #e1e1e1;
+    padding: 2%;
+    max-height: 350px;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.32);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.32);
+    border-radius: 12px;
+}
+
+.cardAlterar, .card{
+    /* border: 1px solid #e1e1e1;
+    padding: 2%;
+    max-height: 450px;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.32);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.32);
+    border-radius: 12px;
+    margin-top: 25px; */
+
+    padding: 2% !important;
+    margin-top: 50px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 10px !important; /* Canto arredondado */
+    transition: transform 0.2s ease-in-out !important; /* Efeito ao passar o mouse */
+}
+
+.cardAlterar:hover, .card:hover{
+    transform: translateY(-5px); /* Elevação no hover */
+}
+
+.order-card-image {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin : auto;
+}
+
+.descricao{
+    --max-lines: 2;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.order-card-title{
+    text-align: center;
+    color: #da5c5c;
+}
+
+.title-descricao{
+    color: #9e9e9e;
+}
+
+.order-card-price{
+    color: #da5c5c;
+}
+
+.botao-quantidade{
+    width: 10%;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    background-color: #da5c5c;
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.32);
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.32);
+}
+
+.order-card-quantity{
+    text-align: center;
+    margin: 0 10px; /* Espaço entre os botões */
+}
+
+.order-card-quantity button:not("#btnAlterarBebida"){
+    border-radius: 50%; /* Formato circular */
+}
