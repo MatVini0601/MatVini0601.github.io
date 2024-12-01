@@ -5,7 +5,7 @@ $(document).on('click', "#alterarUsuario", function(){
     $("#rowPageContent").empty()
 
     $.ajax({
-        url: `https://deploy-planalto.onrender.com/View/Usuario/AlterarUsuario.html`,
+        url: `https://matvini0601.github.io/View/Usuario/AlterarUsuario.html`,
         type: "GET",
         success: function (data) {
            $("#pageContent #rowPageContent").append(data)  
