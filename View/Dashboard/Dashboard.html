@@ -128,7 +128,7 @@
 
     // Grafico 1
     function fetchTotalPedidosSemana() {
-        fetch('https://deploy-planalto.onrender.com//Pedido/total-por-dia-semana-ultima-semana')
+        fetch('https://deploy-planalto.onrender.com/Pedido/total-por-dia-semana-ultima-semana')
             .then(response => response.json())
             .then(data => {
                 const diasSemana = ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo"];
@@ -151,7 +151,7 @@
 
     // Grafico 2
     function fetchStatusPedidosDia() {
-        fetch('https://deploy-planalto.onrender.com//Pedido/status-do-dia')
+        fetch('https://deploy-planalto.onrender.com/Pedido/status-do-dia')
             .then(response => response.json())
             .then(data => {
                 const labelsStatus = ['Entregue', 'Cancelado', 'Pendente'];
@@ -181,7 +181,7 @@
 
     // Grafico 3
     function fetchValorTotalPedidosDia() {
-        fetch('https://deploy-planalto.onrender.com//Pedido/valor-total-dia')
+        fetch('https://deploy-planalto.onrender.com/Pedido/valor-total-dia')
             .then(response => response.json())
             .then(data => {
                 // Formata o valor para exibir com duas casas decimais e atualiza o elemento no HTML
@@ -193,7 +193,7 @@
 
     // Grafico 4
     function fetchTopClientesMes() {
-        fetch('https://deploy-planalto.onrender.com//Pedido/top-clientes-mes')
+        fetch('https://deploy-planalto.onrender.com/Pedido/top-clientes-mes')
             .then(response => response.json())
             .then(data => {
                 const listGroupTopClientes = document.getElementById('listaTopClientesMes');
@@ -214,7 +214,7 @@
 
     // Grafico 5
     function fetchTicketMedioMes() {
-        fetch('https://deploy-planalto.onrender.com//Pedido/ticket-medio-mes')
+        fetch('https://deploy-planalto.onrender.com/Pedido/ticket-medio-mes')
             .then(response => response.json())
             .then(data => {
                 // Formata o valor para exibir com duas casas decimais e atualiza o elemento no HTML

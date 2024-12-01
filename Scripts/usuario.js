@@ -1,4 +1,4 @@
-const url = "https://deploy-planalto.onrender.com//"
+const url = "https://deploy-planalto.onrender.com/"
 
 $(document).on('click', "#alterarUsuario", function(){
 

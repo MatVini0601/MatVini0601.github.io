@@ -1,4 +1,4 @@
-const URL = "https://deploy-planalto.onrender.com/"
+const URL = "https://deploy-planalto.onrender.com"
 
 // function atualizarCadastro(){
 //     const email = document.getElementById("caduser_email").value
