@@ -304,7 +304,7 @@ $(document).on('click', "#todosPedidos", function(){
     $("#rowPageContent").empty()
 
     $.ajax({
-        url: `https://deploy-planalto.onrender.com/View/Pedidos/TodosPedidos.html`,
+        url: `https://matvini0601.github.io/View/Pedidos/TodosPedidos.html`,
         type: "GET",
         success: function (data) {
             $("#pageContent #rowPageContent").append(data) 
@@ -320,7 +320,7 @@ $(document).on('click', "#incluirBebida", function(){
     $("#rowPageContent").empty()
 
     $.ajax({
-        url: `https://deploy-planalto.onrender.com/View/Bebidas/IncluirBebida.html`,
+        url: `https://matvini0601.github.io/View/Bebidas/IncluirBebida.html`,
         type: "GET",
         success: function (data) {
             $("#pageContent #rowPageContent").append(data) 
@@ -338,7 +338,7 @@ $(document).on('click', "#incluirCategoria", function(){
     $("#rowPageContent").empty()
 
     $.ajax({
-        url: `https://deploy-planalto.onrender.com/View/Categoria/IncluirCategoria.html`,
+        url: `https://matvini0601.github.io/View/Categoria/IncluirCategoria.html`,
         type: "GET",
         success: function (data) {
             $("#pageContent #rowPageContent").append(data) 
@@ -361,7 +361,7 @@ $(document).on('click', "#alterarCategoria", function(){
     $("#rowPageContent").empty()
 
     $.ajax({
-        url: `https://deploy-planalto.onrender.com/View/Categoria/Categoria.html`,
+        url: `https://matvini0601.github.io/View/Categoria/Categoria.html`,
         type: "GET",
         success: function (data) {
             $("#pageContent #rowPageContent").append(data) 
@@ -378,7 +378,7 @@ $(document).on('click', ".btnAlterarBebida", function(){
     $("#rowPageContent").empty()
 
     $.ajax({
-        url: `https://deploy-planalto.onrender.com/View/Bebidas/IncluirBebida.html`,
+        url: `https://matvini0601.github.io/View/Bebidas/IncluirBebida.html`,
         type: "GET",
         success: function (data) {
             retornarDetalhesBeida(idBebida)
@@ -397,7 +397,7 @@ $(document).on('click', ".btnAlterarCategoria", function(){
     $("#rowPageContent").empty()
 
     $.ajax({
-        url: `https://deploy-planalto.onrender.com/View/Categoria/IncluirCategoria.html`,
+        url: `https://matvini0601.github.io/View/Categoria/IncluirCategoria.html`,
         type: "GET",
         success: function (data) {
             retornarDetalhesCategoria(idCategoria)
