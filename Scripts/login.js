@@ -1,4 +1,4 @@
-const URL = "http://localhost:8080"
+const URL = "http://https://deploy-planalto.onrender.com/"
 
 // function atualizarCadastro(){
 //     const email = document.getElementById("caduser_email").value

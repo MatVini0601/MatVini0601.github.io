@@ -6,7 +6,7 @@ async function recuperarUsuario(id){
     var usuarioData = {}
     await $.ajax({
         type: 'GET',
-        url: 'http://localhost:8080/Usuario/'+id,
+        url: 'http://https://deploy-planalto.onrender.com//Usuario/'+id,
         success: function (data) {
             usuarioData = {
                 "id": data.id,
@@ -33,7 +33,7 @@ async function salvarPedido(){
 async function gerarQRCode(valor){
     	
     $.ajax({
-        url: 'http://localhost:8080/Pedido/GerarBrCode/' + valor,
+        url: 'http://https://deploy-planalto.onrender.com//Pedido/GerarBrCode/' + valor,
         type: 'GET',
         async: true,
         success: function (data) {
@@ -65,7 +65,7 @@ async function gerarQRCode(valor){
 
             $.ajax({
                 type: 'POST',
-                url: 'http://localhost:8080/Pedido',
+                url: 'http://https://deploy-planalto.onrender.com//Pedido',
                 contentType: 'application/json',
                 dataType: 'json',
                 data: JSON.stringify(pedidoData),
@@ -100,7 +100,7 @@ function salvarPedidoBebida(pedidoBebidaData){
     pedidoBebidaData.forEach(pedidoBebida => {
         $.ajax({
             type: 'POST',
-            url: 'http://localhost:8080/PedidoBebida',
+            url: 'http://https://deploy-planalto.onrender.com//PedidoBebida',
             contentType: 'application/json',
             dataType: 'json',
             data: JSON.stringify(pedidoBebida),
@@ -117,7 +117,7 @@ function salvarPedidoBebida(pedidoBebidaData){
 
 function listarPedidoPorUsuario(id){
 
-    fetch(`http://localhost:8080/PedidoBebida/Pedido/${id}`)
+    fetch(`http://https://deploy-planalto.onrender.com//PedidoBebida/Pedido/${id}`)
     .then(response => {
         if (!response.ok) {
             throw new Error('Network response was not ok');
@@ -209,7 +209,7 @@ function copyText(texto) {
   }
 
 function listarTodosPedidos(){
-    fetch(`http://localhost:8080/PedidoBebida/Pedido`)
+    fetch(`http://https://deploy-planalto.onrender.com//PedidoBebida/Pedido`)
     .then(response => {
         if (!response.ok) {
             throw new Error('Network response was not ok');
@@ -274,7 +274,7 @@ $(document).on('change', ".selectPedidoStatus", function(){
 function salvarStatusPedido(idPedido, status){
     $.ajax({
         type: 'PUT',
-        url: 'http://localhost:8080/Pedido/'+idPedido+'/'+status,
+        url: 'http://https://deploy-planalto.onrender.com//Pedido/'+idPedido+'/'+status,
         success: function (data) {
             alert('Status do pedido alterado com sucesso!')
         }
@@ -433,7 +433,7 @@ $(document).on('click', "#salvarBebida", function(){
     if(idBebida == ""){
         $.ajax({
             type: 'POST',
-            url: 'http://localhost:8080/Bebida',
+            url: 'http://https://deploy-planalto.onrender.com//Bebida',
             contentType: 'application/json',
             dataType: 'json',
             data: JSON.stringify(bebidaData),
@@ -446,7 +446,7 @@ $(document).on('click', "#salvarBebida", function(){
     } else {
         $.ajax({
             type: 'PUT',
-            url: 'http://localhost:8080/Bebida/'+idBebida,
+            url: 'http://https://deploy-planalto.onrender.com//Bebida/'+idBebida,
             contentType: 'application/json',
             dataType: 'json',
             data: JSON.stringify(bebidaData),
@@ -474,7 +474,7 @@ $(document).on('click', "#salvarCategoria", function(){
     if(idCategoria == ""){
         $.ajax({
             type: 'POST',
-            url: 'http://localhost:8080/Categoria',
+            url: 'http://https://deploy-planalto.onrender.com//Categoria',
             contentType: 'application/json',
             dataType: 'json',
             data: JSON.stringify(categoriaData),
@@ -487,7 +487,7 @@ $(document).on('click', "#salvarCategoria", function(){
     } else {
         $.ajax({
             type: 'PUT',
-            url: 'http://localhost:8080/Categoria/'+idCategoria,
+            url: 'http://https://deploy-planalto.onrender.com//Categoria/'+idCategoria,
             contentType: 'application/json',
             dataType: 'json',
             data: JSON.stringify(categoriaData),
@@ -518,7 +518,7 @@ $(document).on('click', "#acessarDashboard", function(){
 function carregarBebidas(){
 
     $.ajax({
-        url: `http://localhost:8080/Bebida`,
+        url: `http://https://deploy-planalto.onrender.com//Bebida`,
         type: "GET",
         success: function (data) {
             data.forEach(bebida => {
@@ -549,7 +549,7 @@ function carregarBebidas(){
 
 function retornarDetalhesBeida(idBebida){
     $.ajax({
-        url: `http://localhost:8080/Bebida/`+idBebida,
+        url: `http://https://deploy-planalto.onrender.com//Bebida/`+idBebida,
         type: "GET",
         success: function (data) {
 
@@ -574,7 +574,7 @@ function retornarDetalhesBeida(idBebida){
 
 function retornarDetalhesCategoria(idCategoria){
     $.ajax({
-        url: `http://localhost:8080/Categoria/`+idCategoria,
+        url: `http://https://deploy-planalto.onrender.com//Categoria/`+idCategoria,
         type: "GET",
         success: function (data) {
             document.getElementById("idCategoria").value = data.id
@@ -588,7 +588,7 @@ function loadCategorias(id = null){
     $('#selectCategoriaBebida').empty()
 
     $.ajax({
-        url: `http://localhost:8080/Categoria`,
+        url: `http://https://deploy-planalto.onrender.com//Categoria`,
         type: "GET",
         success: function (data) {
             data.forEach(categoria => {
@@ -609,7 +609,7 @@ function loadCategorias(id = null){
 
 function carregarCategorias(){
 
-    fetch(`http://localhost:8080/Categoria`)
+    fetch(`http://https://deploy-planalto.onrender.com//Categoria`)
     .then(response => {
         if (!response.ok) {
             throw new Error('Network response was not ok');

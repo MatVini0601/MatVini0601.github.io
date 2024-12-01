@@ -1,4 +1,4 @@
-//const URL = "http://localhost:8080"
+//const URL = "http://https://deploy-planalto.onrender.com/"
 
 $(document).ready(function(){
 
@@ -8,7 +8,7 @@ $(document).ready(function(){
 
 function loadBebidas(){
     $.ajax({
-        url: `http://localhost:8080/Bebida`,
+        url: `http://https://deploy-planalto.onrender.com//Bebida`,
         type: "GET",
         success: function (data) {
             $('#bebidas').empty()
