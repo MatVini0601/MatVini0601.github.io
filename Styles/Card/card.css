@@ -73,6 +73,8 @@
 
 .order-card-quantity{
     text-align: center;
+    position: relative;
+    bottom: -45px;
     margin: 0 10px; /* Espaço entre os botões */
 }
 
