@@ -32,8 +32,9 @@
 
 .order-card-image {
   width: 50%;
-  height: auto;
-  max-height: 200px;
+  height: 160px;
+  max-width: 160px;
+  border-radius: 6px;
   object-fit: cover;
   display: block;
   margin : auto;
