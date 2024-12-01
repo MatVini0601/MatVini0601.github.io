@@ -286,7 +286,7 @@ $(document).on('click', "#pedidosUsuario", function(){
     $("#rowPageContent").empty()
 
     $.ajax({
-        url: `https://deploy-planalto.onrender.com/View/Pedidos/Pedidos.html`,
+        url: `https://matvini0601.github.io/View/Pedidos/Pedidos.html`,
         type: "GET",
         success: function (data) {
             $("#pageContent #rowPageContent").append(data) 
