@@ -505,7 +505,7 @@ $(document).on('click', "#sair", function(){
     localStorage.removeItem("id")
     localStorage.removeItem("nome")
     localStorage.removeItem("tipo")
-    window.location.href = window.location.origin + "/View/login/Login.html"
+    window.location.href = window.location.origin + "/View/Login/Login.html"
     
 })
 
