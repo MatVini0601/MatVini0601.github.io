@@ -124,11 +124,13 @@
         fetchValorTotalPedidosDia();
         fetchTopClientesMes()
         fetchTicketMedioMes();
+        fetchBebidasMaisVendidas()
     });
 
     // Grafico 1
     function fetchTotalPedidosSemana() {
         fetch('https://deploy-planalto.onrender.com/Pedido/total-por-dia-semana-ultima-semana')
+        // fetch('http://localhost:8080/Pedido/total-por-dia-semana-ultima-semana')
             .then(response => response.json())
             .then(data => {
                 const diasSemana = ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo"];
@@ -152,6 +154,7 @@
     // Grafico 2
     function fetchStatusPedidosDia() {
         fetch('https://deploy-planalto.onrender.com/Pedido/status-do-dia')
+        // fetch('http://localhost:8080/Pedido/status-do-dia')
             .then(response => response.json())
             .then(data => {
                 const labelsStatus = ['Pago', 'Finalizado', 'Aguardando pagamento'];
@@ -182,6 +185,7 @@
     // Grafico 3
     function fetchValorTotalPedidosDia() {
         fetch('https://deploy-planalto.onrender.com/Pedido/valor-total-dia')
+        // fetch('http://localhost:8080/Pedido/valor-total-dia')
             .then(response => response.json())
             .then(data => {
                 // Formata o valor para exibir com duas casas decimais e atualiza o elemento no HTML
@@ -191,9 +195,10 @@
             .catch(error => console.error('Erro ao buscar valor total dos pedidos do dia:', error));
     }
 
-    // Grafico 4
+    // Gráfico 4
     function fetchTopClientesMes() {
         fetch('https://deploy-planalto.onrender.com/Pedido/top-clientes-mes')
+        // fetch('http://localhost:8080/Pedido/top-clientes-mes')
             .then(response => response.json())
             .then(data => {
                 const listGroupTopClientes = document.getElementById('listaTopClientesMes');
@@ -215,6 +220,7 @@
     // Grafico 5
     function fetchTicketMedioMes() {
         fetch('https://deploy-planalto.onrender.com/Pedido/ticket-medio-mes')
+        // fetch('http://localhost:8080/Pedido/ticket-medio-mes')
             .then(response => response.json())
             .then(data => {
                 // Formata o valor para exibir com duas casas decimais e atualiza o elemento no HTML
@@ -225,30 +231,59 @@
     }
 
     // Grafico 6
-    const ctxMaisVendidas = document.getElementById('chartMaisVendidas').getContext('2d');
-    new Chart(ctxMaisVendidas, {
-        type: 'bar',
-        data: {
-            labels: ['Cerveja', 'Refrigerante', 'Água', 'Suco', 'Energético'],
-            datasets: [{
-                label: 'Quantidade Vendida',
-                data: [50, 30, 20, 10, 5],
-                backgroundColor: '#da5c5c'
-            }]
-        },
-        options: {
-            responsive: true,
-            scales: {
-                y: { beginAtZero: true }
-            },
-            plugins: {
-                legend: { display: false }
-            }
-        }
-    });
+    function fetchBebidasMaisVendidas() {
+        fetch('https://deploy-planalto.onrender.com/Pedido/bebidas-mais-vendidas-mes')
+        // fetch('http://localhost:8080/Pedido/bebidas-mais-vendidas-mes')
+            .then(response => response.json())
+            .then(data => {
+                // Extrair rótulos e valores do JSON retornado
+                const labels = Object.keys(data); // Nomes das bebidas
+                const values = Object.values(data); // Quantidades vendidas
 
-
-
+                // Configurar o gráfico
+                const ctxMaisVendidas = document.getElementById('chartMaisVendidas').getContext('2d');
+                new Chart(ctxMaisVendidas, {
+                    type: 'bar',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: 'Quantidade Vendida',
+                            data: values,
+                            backgroundColor: '#da5c5c'
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        scales: {
+                            y: {
+                                beginAtZero: true,
+                                title: {
+                                    display: true,
+                                    text: 'Quantidade'
+                                }
+                            },
+                            x: {
+                                title: {
+                                    display: true,
+                                    text: 'Bebidas'
+                                }
+                            }
+                        },
+                        plugins: {
+                            legend: { display: false },
+                            tooltip: {
+                                callbacks: {
+                                    label: function(context) {
+                                        return `Quantidade: ${context.raw}`;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                });
+            })
+            .catch(error => console.error('Erro ao buscar dados de bebidas mais vendidas:', error));
+    }
 
 </script>
 </body>
